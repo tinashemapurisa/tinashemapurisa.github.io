@@ -151,6 +151,8 @@ ul {
 /*****All social media btn*****/
 .social-media {
   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr) ;
 }
 
 .social-media div {
