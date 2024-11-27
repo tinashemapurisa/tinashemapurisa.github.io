@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #f2f3fb;
+  background: linear-gradient(#FFFF00 ,#ffffff);
   width: 100%;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
