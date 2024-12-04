@@ -5,10 +5,10 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(#FFFF00 ,#ffffff);
+  /* background: linear-gradient(#FFFF00 ,#ffffff); */
   width: 100%;
   min-height: 100vh;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -56,41 +56,13 @@ ul {
   color: #131414;
 }
 
-/**On load name effect**/
-.name>span {
-  display: inline-block;
-  overflow: hidden;
-  transition: .2s transform
-}
-
-.name>span span {
-  display: inline-block;
-  transition: .5s transform cubic-bezier(.34, 1.56, .64, 1);
-}
-.name>span:nth-child(odd) {
-  transform: translateY(50%);
-}
-.name>span:nth-child(odd) span {
-  transform: translateY(-100%);
-}
-.name>span:nth-child(even) {
-  transform: translateY(-50%);
-}
-.name>span:nth-child(even) span {
-  transform: translateY(100%);
-}
-
-.name.loaded>span,
-.name.loaded>span span {
-  transform: translateY(0);
-}
 
 /*****Few personal details*****/
 .info-box {
   width: 100%;
   background-color: #f5f5fc;
   border-radius: 0.5rem;
-  border: 2px solid #343b45;
+  border: 1px solid #00000088;
   padding: 1rem 0;
   height: 3.45rem;
   overflow: hidden;
