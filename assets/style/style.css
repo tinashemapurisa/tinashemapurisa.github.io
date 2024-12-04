@@ -59,7 +59,7 @@ ul {
 /*****Few personal details*****/
 .info-box {
   width: 100%;
-  background-color: #f5f5fc;
+  background-color: #ffffff;
   border-radius: 0.5rem;
   border: 1px solid #00000088;
   padding: 1rem 0;
@@ -132,7 +132,7 @@ ul {
   border-radius: 0.5rem;
   backdrop-filter: blur(10px);
   border: 2px solid #343b45;
-  background-color: #f5f5fc;
+  background-color: #ffffff;
   padding: 1rem 0;
   transition: all 0.3s ease;
   display: flex;
