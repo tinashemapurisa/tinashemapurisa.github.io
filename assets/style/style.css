@@ -16,6 +16,7 @@ body::-webkit-scrollbar {
 a {
   color: #343b45;
   text-decoration: none;
+  max-width: 100%;
 }
 ul {
   list-style-type: none;
