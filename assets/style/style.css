@@ -69,6 +69,7 @@ ul {
   height: 3.45rem;
   overflow: hidden;
   position: relative;
+  margin-top: 20px;
 }
 /*if toggle btn click then add .active*/
 .info-box .toggle {
